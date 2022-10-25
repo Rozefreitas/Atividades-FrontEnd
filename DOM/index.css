@@ -1,0 +1,130 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 70vw;
+    height: 300vh;
+    margin: auto;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.button-style {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: left;
+    gap: 10px;
+
+
+}
+
+.button-sublinhado {
+
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.button-italico {
+
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.button-negrito {
+
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button-size {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: left;
+    gap: 10px;
+
+}
+
+.button-menos {
+
+    width: 100px;
+    height: 100px;
+}
+
+.button-mais {
+
+    width: 100px;
+    height: 100px;
+}
+
+.button-collor {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: left;
+    gap: 10px;
+
+}
+
+.button-vermelho {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+}
+
+.button-azul {
+
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+.button-roxo {
+
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+
+}
+
+.button-preto {
+
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+
+.text {
+
+    text-align: justify;
+    align-items: center;
+    font-size: 12px;
+
+}
