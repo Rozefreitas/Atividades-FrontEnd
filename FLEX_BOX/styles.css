@@ -1,0 +1,166 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    display: flex;
+}
+
+.sidebar {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+    height: 900px;
+    width: 248px;
+    left: 0px;
+    top: 0px;
+    background: #253A5C;
+
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.line {
+
+    background-color: #969090;
+    height: 1px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.btn-sign-out {
+
+    all: unset;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 64px;
+    background-color: #41AF1A;
+    border-radius: 10px;
+
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.container {
+
+    width: 100%;
+    min-height: 100vh;
+    background-color: #456392;
+    padding: 30px;
+
+}
+
+.container h1 {
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.retangulo {
+
+
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    margin-left: 100px;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    padding: 20px 18px 30px 18px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+
+    background-color: #FFFFFF;
+    color: #131e30;
+    border-radius: 10%;
+
+
+    height: 352px;
+    width: 231.2883758544922px;
+    left: 366px;
+    top: 138px;
+    border-radius: 20px;
+
+}
+
+.card img {
+
+    width: 110px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.card strong {
+
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+
+}
+
+.user {
+
+    margin-bottom: 60px;
+
+}
+
+.card span {
+
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.card div {
+
+    display: flex;
+    flex-direction: column;
+
+}
