@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register-form {
+
+    display: flex;
+    position: absolute;
+    width: 477px;
+    height: 338px;
+    left: 119px;
+    top: 240px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.register-form strong {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+#input-name,
+#input-email,
+#input-password {
+
+    display: flex;
+    width: 476px;
+    height: 51px;
+    padding: 0 8px;
+    background-color: #FDFAFA;
+    border: 1px solid #E8E8E8;
+
+}
+
+.register-button {
+
+    background-color: #04C45C;
+    color: white;
+    width: 476px;
+    height: 51px;
+    cursor: pointer;
+
+}
+
+.cancel-button {
+
+    background-color: #FB0615A6;
+
+    color: white;
+    width: 476px;
+    height: 51px;
+    cursor: pointer;
+
+}
+
+.final-text {
+
+    position: absolute;
+    left: 237px;
+    top: 600px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+img {
+
+    position: absolute;
+    width: 720px;
+    height: 900px;
+    margin-left: 1080px;
+
+}
+
+.error-msg,
+.error-name,
+.error-email,
+.error-password {
+
+    color: red;
+    text-align: center;
+
+}

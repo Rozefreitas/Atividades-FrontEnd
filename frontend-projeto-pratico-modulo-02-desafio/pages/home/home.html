@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="./home.css">
+    <script src="./home.js" defer></script>
+
+    <title>Home</title>
+
+</head>
+
+<body>
+
+    <header class="header-card">
+
+        <div></div>
+        <h1>Kontacts</h1>
+        <img class="icon-vector" src="../../assets/Vector.svg" alt="vector" />
+
+    </header>
+
+    <button class="open-modal-button" onclick="openModal()">Adicionar</button>
+
+    <div class="modal-container">
+
+        <form>
+
+            <h2>Novo Contato</h2>
+
+            <img class="close-modal-button" src="../../assets/close.svg" onclick="closeModal()" />
+
+            <div>
+                <input type="text" placeholder="Nome" class="input-modal-name" />
+            </div>
+
+            <div>
+                <input type="email" placeholder="E-mail" class="input-modal-email" />
+            </div>
+
+            <div>
+                <input type="tel" placeholder="Telefone" class="input-modal-tel" />
+            </div>
+
+            <div>
+                <button class="button-add">ADICIONAR</button>
+                <button class="button-clean" type="button" onclick="cleanModal()">LIMPAR</button>
+                <span class="error-msg-modal"></span>
+            </div>
+
+        </form>
+
+    </div>
+
+    <table>
+
+        <div class="table-header">
+            <strong>Nome</strong>
+            <strong>E-mail</strong>
+            <strong>Telefone</strong>
+            <strong></strong>
+        </div>
+
+        <div id="table-line">
+            <span>Claudia M. Sousa</span>
+            <span>claudia@teste.com.br</span>
+            <span>(99)9999-9999</span>
+            <img id="modal-delete-icon" src="../../assets/Group.svg" alt="delete" onclick="openDeleteModal()" />
+        </div>
+
+        <div id="table-line">
+            <span>João Santos</span>
+            <span>joao@teste.com.br</span>
+            <span>(99)9999-9999</span>
+            <img id="modal-delete-icon" src="../../assets/Group.svg" alt="delete" onclick="openDeleteModal()" />
+        </div>
+
+        <div id="table-line">
+            <span>Pedro Henrique</span>
+            <span>pedrohenrique@teste.com.br</span>
+            <span>(99)9999-9999</span>
+            <img id="modal-delete-icon" src="../../assets/Group.svg" alt="delete" onclick="openDeleteModal()" />
+        </div>
+
+        <div id="table-line">
+            <span>Marina Tavares</span>
+            <span>marina_tavares@teste.com.br</span>
+            <span>(99)9999-9999</span>
+            <img id="modal-delete-icon" src="../../assets/Group.svg" alt="delete" onclick="openDeleteModal()" />
+        </div>
+
+        <div id="table-line">
+            <span>Daniel Lopes</span>
+            <span>daniel.lopes@cubos.academy</span>
+            <span>(99)9999-9999</span>
+            <img id="modal-delete-icon" src="../../assets/Group.svg" alt="delete" onclick="openDeleteModal()" />
+        </div>
+
+        <div id="table-line">
+            <span>Guido Cerqueira</span>
+            <span>guido.cerqueira@cubos.academy</span>
+            <span>(99)9999-9999</span>
+            <img id="modal-delete-icon" src="../../assets/Group.svg" alt="delete" onclick="openDeleteModal()" />
+        </div>
+
+    </table>
+
+    <div class="delete-modal-container">
+
+        <div class="delete-modal-card">
+
+            <img class="close-modal-button" src="../../assets/close.svg" alt="close" onclick="closeModal()" />
+
+            <h2>Confirma a exclusão?</h2>
+
+            <span>Deseja excluir o contato?</span>
+
+            <button class="delete" onclick="closeModal()">EXCLUIR</button>
+            <button class="cancel" onclick="closeModal()">CANCELAR</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

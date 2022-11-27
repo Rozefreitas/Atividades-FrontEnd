@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.cel-image {
+
+    height: 900px;
+    width: 720px;
+}
+
+.form-login {
+
+    display: flex;
+    position: absolute;
+    width: 477px;
+    height: 338px;
+    margin-left: 1000px;
+    top: 240px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-login span {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.login-message {
+
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.input-card-email,
+.input-card-password {
+
+    width: 476px;
+    height: 51px;
+    padding: 0 8px;
+    background-color: #FDFAFA;
+    border: 1px solid #E8E8E8
+}
+
+.login-button {
+
+    background-color: #04C45C;
+    color: white;
+    width: 476px;
+    height: 51px;
+    cursor: pointer;
+
+}
+
+.final-text {
+
+    font-family: 'Roboto' sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.error-login-email,
+.error-login-password,
+.error-login {
+
+    color: red;
+    text-align: center;
+
+}

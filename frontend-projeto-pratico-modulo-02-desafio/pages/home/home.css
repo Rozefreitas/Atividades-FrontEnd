@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #134563;
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rokkitt';
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFFFFF;
+
+}
+
+.icon-vector {
+
+    position: absolute;
+    left: 96.53%;
+    right: 2.22%;
+    top: 2.89%;
+    bottom: 95.11%;
+    color: #FFFFFF;
+}
+
+.open-modal-button {
+
+    height: 51px;
+    width: 235px;
+    margin-left: 242px;
+    margin-top: 172px;
+    background-color: #04C45C;
+    color: white;
+
+}
+
+.modal-container {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    align-items: center;
+    display: none;
+    animation: animate;
+    animation-duration: 300ms;
+
+}
+
+@keyframes animate {
+
+    from {
+        opacity: 1;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+}
+
+.modal-container h2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.close-modal-button {
+
+    display: flex;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: #968B8B;
+
+}
+
+.modal-container form {
+
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 563px;
+    width: 476px;
+    background-color: #E8E8E8;
+    padding: 50px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.input-modal-name,
+.input-modal-email,
+.input-modal-tel {
+
+    display: flex;
+    height: 50px;
+    width: 364px;
+
+}
+
+.button-add {
+
+    background-color: #04C45C;
+    color: white;
+    width: 364px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.button-clean {
+
+    width: 364px;
+    height: 50px;
+    background: #FB0615A6;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.error-msg-modal {
+
+    display: flex;
+    color: red;
+    text-align: center;
+
+}
+
+table {
+
+    position: absolute;
+    width: 1400px;
+    height: 386px;
+    left: 242px;
+    margin-top: 255px;
+}
+
+.table-header {
+
+    display: flex;
+    width: 1400px;
+    height: 46px;
+    margin-left: 242px;
+    margin-top: 100px;
+    gap: 400px;
+    font-family: 'Rokkitt', sans-serif;
+    font-weight: bold;
+    background-color: #F4F0F0;
+    align-items: center;
+}
+
+#table-line {
+
+    display: flex;
+    width: 1400px;
+    height: 46px;
+    margin-left: 242px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    gap: 200px;
+    background-color: #FFFAFA;
+    align-items: center;
+
+}
+
+#table-line span {
+
+    width: 30%;
+
+}
+
+#modal-delete-icon {
+
+    display: flex;
+    Width: 15px;
+    height: 15px;
+    left: 79.95%;
+    margin-right: 5%;
+    top: 37.72%;
+    bottom: 60.78%;
+    color: #134563;
+    cursor: pointer;
+
+}
+
+.delete-modal-container {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    align-items: center;
+    display: none;
+    animation: animate;
+    animation-duration: 300ms;
+}
+
+.delete-modal-card {
+
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 319px;
+    width: 477px;
+    border-radius: 8px;
+    background-color: #FFFAFA;
+    padding: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.delete-modal-card h2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.delete-modal-card span {
+
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.delete-modal-card span {
+
+    font-family: 'Roboto' sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+}
+
+.delete {
+
+    background-color: #04C45C;
+    color: white;
+    width: 364px;
+    height: 50px;
+
+}
+
+.cancel {
+
+    background-color: #FB0615A6;
+    color: white;
+    width: 364px;
+    height: 50px;
+
+}
